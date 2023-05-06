@@ -3,23 +3,23 @@
     width: min(100% - 1rem, var(--w-container, var(--w-container-default)));
     margin-inline: auto;
 
-    &[size="sm"] {
+    &[data-size="sm"] {
         --w-container: 30rem;
     }
 
-    &[size="md"] {
+    &[data-size="md"] {
         --w-container: 45rem;
     }
 
-    &[size="lg"] {
+    &[data-size="lg"] {
         --w-container: 65rem;
     }
 
-    &[size="xl"] {
+    &[data-size="xl"] {
         --w-container: 80rem;
     }
 
-    &[size="xxl"] {
+    &[data-size="xxl"] {
         --w-container: 86rem;
     }
 }
