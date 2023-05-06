@@ -1,0 +1,25 @@
+.container {
+    --w-container-default: 64rem;
+    width: min(100% - 1rem, var(--w-container, var(--w-container-default)));
+    margin-inline: auto;
+
+    &[size="sm"] {
+        --w-container: 30rem;
+    }
+
+    &[size="md"] {
+        --w-container: 45rem;
+    }
+
+    &[size="lg"] {
+        --w-container: 65rem;
+    }
+
+    &[size="xl"] {
+        --w-container: 80rem;
+    }
+
+    &[size="xxl"] {
+        --w-container: 86rem;
+    }
+}
