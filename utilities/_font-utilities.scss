@@ -4,7 +4,7 @@
     @if $screen-size ==small {
         @each $prop, $value in $property {
             .fs-#{$prop} {
-                font-size: #{$value} !important;
+                font-size: var(--fs-#{$prop}) !important;
             }
         }
     }

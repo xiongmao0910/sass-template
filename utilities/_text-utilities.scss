@@ -27,3 +27,14 @@
 .capitalize {
     text-transform: capitalize;
 }
+
+.truncate {
+    --line-default: 3;
+
+    display: -webkit-box !important;
+    -webkit-line-clamp: var(--line, var(--line-default));
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+}

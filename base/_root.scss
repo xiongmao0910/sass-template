@@ -21,7 +21,7 @@
                 --fs-#{$prop}: #{$value};
             }
         } @else {
-            @include mq(small) {
+            @include mq(medium) {
                 @each $prop, $value in $property {
                     --fs-#{$prop}: #{$value};
                 }
